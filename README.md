@@ -1,6 +1,6 @@
 # System Software: assembler, linker and emulator
 
-[![build-and-test](https://github.com/djokerg/System-Software/actions/workflows/ci.yml/badge.svg)](https://github.com/djokerg/System-Software/actions/workflows/ci.yml)
+[![build-and-test](https://github.com/djokerg/asm-linker-emulator/actions/workflows/ci.yml/badge.svg)](https://github.com/djokerg/asm-linker-emulator/actions/workflows/ci.yml)
 
 A complete toolchain for a small 32-bit processor, written from scratch in C++:
 
@@ -23,7 +23,7 @@ University of Belgrade (2023).
 You only need Docker. The first run builds a small image with g++, flex and bison.
 
 ```sh
-git clone https://github.com/djokerg/System-Software.git && cd System-Software
+git clone https://github.com/djokerg/asm-linker-emulator.git && cd asm-linker-emulator
 ./run.sh                # hello: prints "Hello world" from an interrupt routine
 ./run.sh level-a        # interrupts + calls into a separately linked math library
 ./run.sh level-b        # terminal interrupts: press "y" 20 times
